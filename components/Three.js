@@ -1,7 +1,11 @@
 import React from "react";
 
 const Three = () => {
-  return <div>File Three</div>;
+  return (
+    <div className="pageThreeParent">
+      <div className="pageTwoChildren">In Center</div>
+    </div>
+  );
 };
 
 export default Three;

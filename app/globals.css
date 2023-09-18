@@ -59,3 +59,65 @@ li {
   padding: 1em;
   background-color: white;
 }
+.pagetwocontainerFour {
+  background-color: skyblue;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+.pagetwocontainerThree {
+  background-color: skyblue;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  align-items: last baseline;
+  justify-content: last baseline;
+}
+.pagetwocontainerTwo {
+  background-color: skyblue;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 500px;
+}
+.pagetwocontainerOne {
+  background-color: skyblue;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  align-items: start;
+  justify-content: start;
+}
+.pageTwoParent li {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.pageThreeParent {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  display: flex;
+}
+.pageTwoChildren {
+  background-color: white;
+  color: blue;
+  font-size: 30px;
+  padding: 2em;
+}
