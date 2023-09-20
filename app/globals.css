@@ -70,6 +70,7 @@ li {
   height: 500px;
   align-items: center;
   align-content: space-between;
+  gap: 3rem;
 }
 .pagetwocontainerFour {
   background-color: skyblue;
@@ -82,6 +83,7 @@ li {
   height: 500px;
   align-items: center;
   align-content: space-around;
+  gap: 3rem;
 }
 .pagetwocontainerThree {
   background-color: skyblue;
@@ -93,6 +95,7 @@ li {
   height: 500px;
   align-items: flex-end;
   align-content: flex-end;
+  gap: 3rem;
 }
 .pagetwocontainerTwo {
   background-color: skyblue;
@@ -103,6 +106,7 @@ li {
   align-items: center;
   height: 500px;
   align-content: center;
+  gap: 3rem;
 }
 .pagetwocontainerOne {
   background-color: skyblue;
@@ -116,6 +120,8 @@ li {
   justify-content: start;
   align-content: flex-start;
   /* align-content is the property which get enables when we use flex-wrap with wrap; */
+  gap: 3rem;
+  /* to provide the gap in b/w the elements, accessible because of align-content  */
 }
 .pageTwoParent li {
   background-color: #f1f1f1;
@@ -137,4 +143,30 @@ li {
   color: blue;
   font-size: 30px;
   padding: 2em;
+}
+.pageFourParent {
+  background-color: palevioletred;
+  color: black;
+  font-size: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 700px;
+  display: flex;
+  align-items: flex-start;
+  /* if we don't use align-items and our parent have some height, and there is empty space, then children element will expand themself to cover they remaining space. */
+}
+.pageFourParent li {
+  color: white;
+  border: 2px solid red;
+}
+.item2 {
+  flex-grow: 1;
+  /* this allow element to grow if there's enough space and the remaining space divided in b/w other elements equally  */
+  align-self: center;
+  /* to change the position of element */
+}
+.item3 {
+  order: -1;
+  /* now item once comes before every element */
 }

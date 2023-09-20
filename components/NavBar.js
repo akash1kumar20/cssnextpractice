@@ -15,6 +15,9 @@ const NavBar = () => {
       <Link href={"/three"} className="link">
         <li>Page Three</li>
       </Link>
+      <Link href={"/four"} className="link">
+        <li>Page Four</li>
+      </Link>
     </ul>
   );
 };

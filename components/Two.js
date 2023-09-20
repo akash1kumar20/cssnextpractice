@@ -12,10 +12,6 @@ const Two = () => {
         <li>6</li>
         <li>7</li>
         <li>8</li>
-        <li>9</li>
-        <li>10</li>
-        <li>11</li>
-        <li>12</li>
       </ul>
       <ul className="pagetwocontainerTwo">
         <li>1</li>
@@ -26,10 +22,6 @@ const Two = () => {
         <li>6</li>
         <li>7</li>
         <li>8</li>
-        <li>9</li>
-        <li>10</li>
-        <li>11</li>
-        <li>12</li>
       </ul>
       <ul className="pagetwocontainerThree">
         <li>1</li>
@@ -40,10 +32,6 @@ const Two = () => {
         <li>6</li>
         <li>7</li>
         <li>8</li>
-        <li>9</li>
-        <li>10</li>
-        <li>11</li>
-        <li>12</li>
       </ul>
       <ul className="pagetwocontainerFour">
         <li>1</li>
@@ -54,10 +42,6 @@ const Two = () => {
         <li>6</li>
         <li>7</li>
         <li>8</li>
-        <li>9</li>
-        <li>10</li>
-        <li>11</li>
-        <li>12</li>
       </ul>
       <ul className="pagetwocontainerFive">
         <li>1</li>
@@ -68,10 +52,6 @@ const Two = () => {
         <li>6</li>
         <li>7</li>
         <li>8</li>
-        <li>9</li>
-        <li>10</li>
-        <li>11</li>
-        <li>12</li>
       </ul>
     </div>
   );
